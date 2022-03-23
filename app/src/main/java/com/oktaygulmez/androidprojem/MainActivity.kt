@@ -19,6 +19,6 @@ class MainActivity : AppCompatActivity() {
         var sonuc = (yakitort*(km/100)*yakitfiyat)
         var kmkacyakar = sonuc/km
         sonucText.text = "Aracınız Toplamda " + sonuc.toString()+" liralık yakıt yakacaktır."
-        kmKacYakarText.text = "Aracınız km başına " + kmkacyakar + " lira yakacaktır."
+        kmKacYakarText.text = "Aracınız km başına " + kmkacyakar + " lira yakacaktır. "
     }
 }
